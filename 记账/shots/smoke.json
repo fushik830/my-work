@@ -1,0 +1,26 @@
+{
+  "home": true,
+  "confirmOpened": true,
+  "confirmCancelClosed": true,
+  "overlayCloseClosed": true,
+  "txOpened": true,
+  "txCloseClosed": true,
+  "budgetPill": "上限 ¥4,000",
+  "bannerBefore": true,
+  "bannerClosed": true,
+  "recordsOrder": {
+    "hasList": true,
+    "hasTrend": true,
+    "listBeforeTrend": true
+  },
+  "pageScroll": {
+    "top": 0,
+    "client": 844,
+    "scroll": 2523
+  },
+  "backup": {
+    "name": "哦鲸鲸记账-备份-20261117-2050.json",
+    "count": 13,
+    "apiKey": ""
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">哦鲸鲸记账</string>
+    <string name="channel_budget_name">记账提醒</string>
+    <string name="channel_budget_desc">支出接近上限，或攒钱目标吃紧时提醒你</string>
+</resources>
