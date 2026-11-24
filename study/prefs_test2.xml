@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="last_check_in_date">2026-11-20</string>
+    <boolean name="read_running" value="false" />
+    <long name="read_seconds" value="1800" />
+    <string name="focus_sessions_json">[{&quot;taskId&quot;:&quot;read&quot;,&quot;date&quot;:&quot;2026-11-20&quot;,&quot;seconds&quot;:1800,&quot;endedAt&quot;:1795147764106}]</string>
+    <string name="time_manager_day">2026-11-20</string>
+    <int name="miss_streak" value="0" />
+    <string name="task_date">2026-11-20</string>
+    <long name="ai_seconds" value="1795" />
+    <boolean name="ai_running" value="true" />
+    <set name="check_in_history">
+        <string>2026-11-20</string>
+    </set>
+</map>

@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.stusy"
+4    android:versionCode="10"
+5    android:versionName="2.7" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:5:5-77
+12-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:6:5-81
+13-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:7:5-77
+14-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+15-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:8:5-89
+15-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:8:22-86
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:9:5-68
+16-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:9:22-65
+17
+18    <permission
+18-->[androidx.core:core:1.16.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\308230692668dfda0b6c565c0eae902a\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.stusy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.16.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\308230692668dfda0b6c565c0eae902a\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.16.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\308230692668dfda0b6c565c0eae902a\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.stusy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.16.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\308230692668dfda0b6c565c0eae902a\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.16.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\308230692668dfda0b6c565c0eae902a\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:11:5-54:19
+25        android:allowBackup="false"
+25-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:12:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.16.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\308230692668dfda0b6c565c0eae902a\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+28-->INJECTED
+29        android:icon="@drawable/app_icon"
+29-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:13:9-42
+30        android:label="@string/app_name"
+30-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:14:9-41
+31        android:supportsRtl="true"
+31-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:15:9-35
+32        android:theme="@style/Theme.Stusy" >
+32-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:16:9-43
+33        <activity
+33-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:18:9-26:20
+34            android:name="com.example.stusy.MainActivity"
+34-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:19:13-41
+35            android:exported="true"
+35-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:20:13-36
+36            android:windowSoftInputMode="adjustResize" >
+36-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:21:13-55
+37            <intent-filter>
+37-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:22:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:23:17-69
+38-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:24:17-77
+40-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <receiver
+44-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:28:9-30:40
+45            android:name="com.example.stusy.notify.ReminderReceiver"
+45-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:29:13-52
+46            android:exported="false" />
+46-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:30:13-37
+47        <receiver
+47-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:32:9-42:20
+48            android:name="com.example.stusy.notify.ReminderRestoreReceiver"
+48-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:33:13-59
+49            android:enabled="true"
+49-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:34:13-35
+50            android:exported="true" >
+50-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:35:13-36
+51            <intent-filter>
+51-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:36:13-41:29
+52                <action android:name="android.intent.action.BOOT_COMPLETED" />
+52-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:37:17-79
+52-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:37:25-76
+53                <action android:name="android.intent.action.TIME_SET" />
+53-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:38:17-73
+53-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:38:25-70
+54                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+54-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:39:17-81
+54-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:39:25-78
+55                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+55-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:40:17-84
+55-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:40:25-81
+56            </intent-filter>
+57        </receiver>
+58
+59        <service
+59-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:45:9-53:19
+60            android:name="com.example.stusy.timer.TimerService"
+60-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:46:13-47
+61            android:exported="false"
+61-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:47:13-37
+62            android:foregroundServiceType="specialUse"
+62-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:49:13-55
+63            android:stopWithTask="false" >
+63-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:48:13-41
+64            <property
+64-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:50:13-52:47
+65                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+65-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:51:17-76
+66                android:value="study_timer" />
+66-->D:\小玩意\study\Stusy-complete\Stusy\app\src\main\AndroidManifest.xml:52:17-44
+67        </service>
+68
+69        <activity
+69-->[androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\fushik\.gradle\caches\9.6.0\transforms\2e9f63fce234b80672a47bd3a6d251d6\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+70            android:name="androidx.compose.ui.tooling.PreviewActivity"
+70-->[androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\fushik\.gradle\caches\9.6.0\transforms\2e9f63fce234b80672a47bd3a6d251d6\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+71            android:exported="true" />
+71-->[androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\fushik\.gradle\caches\9.6.0\transforms\2e9f63fce234b80672a47bd3a6d251d6\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+72
+73        <uses-library
+73-->[androidx.window:window:1.5.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\71deab130fbbce192af28f9f108eacc0\transformed\window-1.5.0\AndroidManifest.xml:23:9-25:40
+74            android:name="androidx.window.extensions"
+74-->[androidx.window:window:1.5.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\71deab130fbbce192af28f9f108eacc0\transformed\window-1.5.0\AndroidManifest.xml:24:13-54
+75            android:required="false" />
+75-->[androidx.window:window:1.5.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\71deab130fbbce192af28f9f108eacc0\transformed\window-1.5.0\AndroidManifest.xml:25:13-37
+76        <uses-library
+76-->[androidx.window:window:1.5.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\71deab130fbbce192af28f9f108eacc0\transformed\window-1.5.0\AndroidManifest.xml:26:9-28:40
+77            android:name="androidx.window.sidecar"
+77-->[androidx.window:window:1.5.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\71deab130fbbce192af28f9f108eacc0\transformed\window-1.5.0\AndroidManifest.xml:27:13-51
+78            android:required="false" />
+78-->[androidx.window:window:1.5.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\71deab130fbbce192af28f9f108eacc0\transformed\window-1.5.0\AndroidManifest.xml:28:13-37
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+82            android:authorities="com.example.stusy.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\7a18946c92668f8d2148864d6eda6d4b\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\fushik\.gradle\caches\9.6.0\transforms\ef3051d061123da5130306038d18e0bf\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\fushik\.gradle\caches\9.6.0\transforms\ef3051d061123da5130306038d18e0bf\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\fushik\.gradle\caches\9.6.0\transforms\ef3051d061123da5130306038d18e0bf\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+92                android:value="androidx.startup" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+93        </provider>
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\fushik\.gradle\caches\9.6.0\transforms\81f4713e88c165b638d39faedef46e7d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>

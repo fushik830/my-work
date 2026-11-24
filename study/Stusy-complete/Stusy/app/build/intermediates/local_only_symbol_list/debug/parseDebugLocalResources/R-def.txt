@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color launch_bg
+drawable app_icon
+drawable app_icon_source
+drawable ic_launcher_foreground
+drawable ic_notify
+drawable ic_pause
+drawable ic_play
+drawable pet_dead
+drawable pet_hungry
+drawable pet_normal
+drawable pet_thinking
+drawable pet_waiting
+mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_round
+string app_name
+style Theme.Stusy

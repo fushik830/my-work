@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="time_idle_running" value="false" />
+    <long name="time_idle_seconds" value="0" />
+    <string name="time_manager_day">2026-11-20</string>
+    <int name="miss_streak" value="0" />
+    <string name="task_date">2026-11-20</string>
+    <boolean name="time_temper_running" value="false" />
+    <long name="time_temper_seconds" value="0" />
+    <boolean name="time_focus_running" value="false" />
+    <long name="time_focus_seconds" value="1800" />
+</map>

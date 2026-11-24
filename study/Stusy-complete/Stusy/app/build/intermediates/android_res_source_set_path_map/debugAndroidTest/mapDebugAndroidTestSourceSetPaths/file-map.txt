@@ -1,0 +1,5 @@
+com.example.stusy.test.app-updated_navigation_xml-0 D:\小玩意\study\Stusy-complete\Stusy\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.stusy.test.app-packageDebugAndroidTestResources-1 D:\小玩意\study\Stusy-complete\Stusy\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+com.example.stusy.test.app-packageDebugAndroidTestResources-2 D:\小玩意\study\Stusy-complete\Stusy\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+com.example.stusy.test.app-debugAndroidTest-3 D:\小玩意\study\Stusy-complete\Stusy\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+gradleHome-0 C:\Users\fushik\.gradle

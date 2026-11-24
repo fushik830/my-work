@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="read_running" value="true" />
+    <long name="read_seconds" value="1795" />
+    <string name="time_manager_day">2026-11-20</string>
+    <int name="miss_streak" value="0" />
+    <string name="task_date">2026-11-20</string>
+    <long name="ai_seconds" value="88" />
+    <boolean name="ai_running" value="false" />
+</map>

@@ -1,0 +1,7 @@
+#Thu Nov 19 22:22:06 CST 2026
+base.0=D\:\\小玩意\\study\\Stusy-complete\\Stusy\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=D\:\\小玩意\\study\\Stusy-complete\\Stusy\\app\\build\\intermediates\\global_synthetics_dex\\debugAndroidTest\\generateDebugAndroidTestGlobalSynthetics\\classes.dex
+path.0=0/classes.dex
+path.1=classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
